@@ -1,0 +1,24 @@
+          #heading{
+              
+              background-color: white;
+              padding: 20px;
+            
+          }
+
+          body{
+              background: #333;
+              color: #ffffff;
+           
+          }
+
+form {
+    padding: 20px
+}
+
+h1, h4 {
+    text-align: center
+}
+
+#error_msg {
+    text-align: center
+}
