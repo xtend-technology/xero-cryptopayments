@@ -1,4 +1,4 @@
 #CoinPayments app
 
 App for accepting crypto payments through Xero via coinPayments API.
-Adds payment to Xero invoice once processed.
+Sends email to payee on payment completion to notify of payment.
