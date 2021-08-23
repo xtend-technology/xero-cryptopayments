@@ -39,7 +39,7 @@ app.get('/payment_form', (req, res) => {
     .then((result) =>{
         const coins = []
         Object.keys(result).forEach(key => {
-        if(result[key].accepted ===1 ){
+        if(result[key].accepted ===1 && key != 'LTCT'){
             coins.push(key)
         }
         
